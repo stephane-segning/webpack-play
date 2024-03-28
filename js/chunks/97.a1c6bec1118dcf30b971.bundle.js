@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebpack_play=self.webpackChunkwebpack_play||[]).push([[97],{97:(e,n,t)=>{async function c(e,n){const t=document.createElement("button");return t.innerText=e,t.addEventListener("click",n),t}t.r(n),t.d(n,{addButton:()=>c})}}]);

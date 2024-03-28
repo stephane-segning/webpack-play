@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "/webpack-play/icon_512x512.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/webpack-play/icon_384x384.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "sizes": "384x384",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/webpack-play/icon_256x256.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "sizes": "256x256",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/webpack-play/icon_192x192.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/webpack-play/icon_128x128.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/webpack-play/icon_96x96.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml"
+    }
+  ],
+  "name": "Fresh App Banana 😎",
+  "short_name": "Fab",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "lang": "en-EN",
+  "description": "My awesome Progressive Web App!",
+  "background_color": "#ffffff"
+}
