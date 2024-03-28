@@ -1,0 +1,31 @@
+$main-color: red;
+$btn-height: 40px;
+$title-color: $main-color;
+$subtitle-color: rgba($title-color, 0.5);
+$button-color: rgba($main-color, 0.125);
+$button-color-hover: rgba($main-color, 0.25);
+
+#root {
+  button {
+    height: $btn-height;
+    background-color: $button-color;
+
+    &:hover {
+      background-color: $button-color-hover;
+    }
+
+    &:focus {
+      font-weight: bolder;
+    }
+  }
+
+  .title {
+    color: $title-color;
+    size: $btn-height * 2;
+  }
+
+  .sub-title {
+    color: $subtitle-color;
+    size: $btn-height;
+  }
+}
