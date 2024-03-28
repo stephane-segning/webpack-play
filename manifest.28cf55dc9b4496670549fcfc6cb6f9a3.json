@@ -35,7 +35,7 @@
   "short_name": "Fab",
   "orientation": "portrait",
   "display": "standalone",
-  "start_url": ".",
+  "start_url": "/webpack-play/",
   "lang": "en-EN",
   "description": "My awesome Progressive Web App!",
   "background_color": "#ffffff"
