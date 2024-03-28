@@ -1,12 +1,12 @@
 {
-  "name": "webpack-play",
-  "short_name": "webpack-play",
-  "description": "",
+  "name": "Fresh App Banana 😎",
+  "short_name": "Fa🤣",
+  "description": "My awesome Progressive Web App!",
   "dir": "auto",
-  "lang": "en-US",
+  "lang": "en-EN",
   "display": "standalone",
   "orientation": "any",
-  "start_url": "/?homescreen=1",
+  "start_url": "/webpack-play/",
   "background_color": "#fff",
   "theme_color": "#fff",
   "icons": [
