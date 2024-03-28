@@ -1,32 +1,32 @@
 {
   "icons": [
     {
-      "src": "/webpack-play/icon_512x512.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "src": "/webpack-play/icon_512x512.fcbfc09a24557038a1b3fab26a05745f.svg",
       "sizes": "512x512",
       "type": "image/svg+xml"
     },
     {
-      "src": "/webpack-play/icon_384x384.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "src": "/webpack-play/icon_384x384.fcbfc09a24557038a1b3fab26a05745f.svg",
       "sizes": "384x384",
       "type": "image/svg+xml"
     },
     {
-      "src": "/webpack-play/icon_256x256.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "src": "/webpack-play/icon_256x256.fcbfc09a24557038a1b3fab26a05745f.svg",
       "sizes": "256x256",
       "type": "image/svg+xml"
     },
     {
-      "src": "/webpack-play/icon_192x192.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "src": "/webpack-play/icon_192x192.fcbfc09a24557038a1b3fab26a05745f.svg",
       "sizes": "192x192",
       "type": "image/svg+xml"
     },
     {
-      "src": "/webpack-play/icon_128x128.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "src": "/webpack-play/icon_128x128.fcbfc09a24557038a1b3fab26a05745f.svg",
       "sizes": "128x128",
       "type": "image/svg+xml"
     },
     {
-      "src": "/webpack-play/icon_96x96.ef49767e96766bd7d95ce3f31b63d81b.svg",
+      "src": "/webpack-play/icon_96x96.fcbfc09a24557038a1b3fab26a05745f.svg",
       "sizes": "96x96",
       "type": "image/svg+xml"
     }
