@@ -3,7 +3,6 @@ const { EnvironmentPlugin } = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const WorkboxPlugin = require("workbox-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const WebpackPwaManifest = require("webpack-pwa-manifest");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 
 const htmlPlugin = new HtmlWebpackPlugin({
@@ -75,7 +74,19 @@ module.exports = (env) => {
       publicPath,
     },
     plugins: [
-      new FaviconsWebpackPlugin("src/assets/icon.svg"),
+      new FaviconsWebpackPlugin({
+        logo: "src/assets/icon.svg",
+        favicons: {
+          appDescription: "My awesome Progressive Web App!",
+          start_url: publicPath,
+          appName: "Fresh App Banana 😎",
+          appShortName: "Fa🤣",
+          lang: "en-EN",
+          background: "#fff",
+          theme_color: "#fff",
+          pixel_art: true,
+        },
+      }),
       new EnvironmentPlugin({
         PUBLIC_PATH: publicPath,
       }),
@@ -84,22 +95,6 @@ module.exports = (env) => {
         // both options are optional
         filename: "css/[name].[contenthash].css",
         chunkFilename: "css/chunks/[id].[contenthash].css",
-      }),
-      new WebpackPwaManifest({
-        name: "Fresh App Banana 😎",
-        lang: "en-EN",
-        short_name: "Fab",
-        description: "My awesome Progressive Web App!",
-        background_color: "#ffffff",
-        crossorigin: null,
-        icons: [
-          {
-            src: path.resolve("src/assets/icon.svg"),
-            sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
-          },
-        ],
-        ios: true,
-        start_url: publicPath,
       }),
       htmlPlugin,
       new WorkboxPlugin.GenerateSW({
