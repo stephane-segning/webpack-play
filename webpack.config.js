@@ -99,6 +99,7 @@ module.exports = (env) => {
           },
         ],
         ios: true,
+        start_url: publicPath,
       }),
       htmlPlugin,
       new WorkboxPlugin.GenerateSW({
